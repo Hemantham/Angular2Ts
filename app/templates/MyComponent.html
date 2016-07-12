@@ -1,0 +1,12 @@
+<h1>
+    My Component
+    {{title}}
+</h1>
+<ul>
+    <li *ngFor="#course of courses">
+            {{course.name}}
+    </li>
+
+    <button  width='100px' (click)='myName()' ></button>
+    <input [(ngModel)]="mycurrentname" placeholder="name">
+</ul>

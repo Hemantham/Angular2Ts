@@ -3,7 +3,7 @@ import {myComponent} from './my.component'
 
 @Component({
     selector: 'my-app',
-    template: '<h1>My First Angular 2 App</h1><br/><my-componet></my-componet>',
+    templateUrl: 'app/templates/main.html',
     directives: [myComponent]
 })
 export class AppComponent { }
